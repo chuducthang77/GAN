@@ -29,3 +29,13 @@ $$a_i^{[l]} =  g^{[l]}(z_i^{[l]})$$
 - Upsampling: Bilinear, linear interpolation
 - Transposed Convolutions: center-pixel have been influenced more than other pixel (checkerboard pattern)
     - Note: upsampling = predefined method, transposed convolutions = learnt filter
+
+# Summary for article "Deconvolution and Checkerboard Artifacts"
+
+- Observations: uneven overlap happens when kernel size not divisible by the stride
+- Stride 1 deconvolution removes artifacts that divide their size and reduces artifacts that less than their size
+- Not only GAN's problem
+- GAN: not generator, discriminator and gradient
+- Solution:
+    - Stride is divided by kernel size
+    - nearest neighbor resize or bilinear interpolation then convolution
