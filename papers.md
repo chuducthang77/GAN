@@ -5,3 +5,6 @@ List of papers, articles and blogs:
 4. [Wasserstein GAN](https://arxiv.org/pdf/1701.07875.pdf)
 5. [Improve Training of Wasserstein GAN](https://arxiv.org/abs/1704.00028)
 6. [From GAN to WGAN](https://lilianweng.github.io/lil-log/2017/08/20/from-GAN-to-WGAN.html)
+7. [Spectral Normalization for Generative Adversarial Networks](https://arxiv.org/pdf/1802.05957.pdf)
+8. [Conditional Generative Adversarial Nets](https://arxiv.org/pdf/1411.1784.pdf)
+9. [An Example of a Controllable GAN](https://arxiv.org/pdf/1907.10786.pdf)
